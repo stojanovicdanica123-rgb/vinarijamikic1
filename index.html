@@ -10,36 +10,41 @@
 <meta property="og:type" content="website">
 </head>
 <body>
+<template id="__bundler_thumbnail">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#2A0C12"/><text x="60" y="72" font-family="Georgia,serif" font-size="42" fill="#C9A76A" text-anchor="middle">VM</text></svg>
+</template>
 <x-dc>
 <helmet>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vinarija Mikić — Negotinska Krajina</title>
-<link rel="preload" href="marcellus-400.woff2" as="font" type="font/woff2" crossorigin="">
-<link rel="preload" href="alegreya-sans-400.woff2" as="font" type="font/woff2" crossorigin="">
-<style>
-@font-face{font-family:'Alegreya Sans';font-style:italic;font-weight:400;font-display:swap;src:url(alegreya-sans-400i-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
-@font-face{font-family:'Alegreya Sans';font-style:italic;font-weight:400;font-display:swap;src:url(alegreya-sans-400i.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
-@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:400;font-display:swap;src:url(alegreya-sans-400-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
-@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:400;font-display:swap;src:url(alegreya-sans-400.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
-@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:500;font-display:swap;src:url(alegreya-sans-500-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
-@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:500;font-display:swap;src:url(alegreya-sans-500.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
-@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:700;font-display:swap;src:url(alegreya-sans-700-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
-@font-face{font-family:'Alegreya Sans';font-style:normal;font-weight:700;font-display:swap;src:url(alegreya-sans-700.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
-@font-face{font-family:'Marcellus';font-style:normal;font-weight:400;font-display:swap;src:url(marcellus-400-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
-@font-face{font-family:'Marcellus';font-style:normal;font-weight:400;font-display:swap;src:url(marcellus-400.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
-</style>
+<link rel="icon" href="logo-vinarija-mikic.png">
+<link rel="apple-touch-icon" href="logo-vinarija-mikic.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;700&display=swap">
 <style>
   *{box-sizing:border-box}
   html{scroll-behavior:smooth;background:#2A0C12}
-  body{margin:0;width:100%;max-width:100%;overflow-x:hidden;background:#F4EDE1;color:#2E1A17;font-family:'Alegreya Sans',system-ui,sans-serif;font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  body{margin:0;width:100%;max-width:100%;overflow-x:hidden;background:#F4EDE1;color:#2E1A17;font-family:'Inter',system-ui,sans-serif;font-size:17px;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   a{color:#75551F;text-decoration:none}
   a:hover{color:#B08D4F}
-  h1,h2,h3{margin:0;font-weight:400;font-family:'Marcellus',Georgia,serif;text-wrap:balance}
-  p{margin:0;text-wrap:pretty}
+  h1,h2,h3{margin:0;font-family:'Playfair Display',Georgia,serif;text-wrap:balance;max-width:900px}
+  h1{font-size:clamp(36px,5vw,56px);line-height:1.1;letter-spacing:-.02em;font-weight:700}
+  h2{font-size:clamp(28px,3.6vw,36px);line-height:1.15;letter-spacing:-.015em;font-weight:600}
+  h3{font-size:clamp(20px,2.2vw,24px);line-height:1.25;font-weight:600}
+  p{margin:0;text-wrap:pretty;max-width:700px;font-weight:400}
+  p[data-flow]+p[data-flow]{margin-top:20px}
   ::selection{background:#B08D4F;color:#2A0C12}
   :focus-visible{outline:2px solid #C9A76A;outline-offset:4px}
-  [data-rv]{transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
-  html[data-anim="on"] [data-rv]{opacity:0;transform:translateY(14px)}
+  [data-rv]{transition:opacity .6s cubic-bezier(.4,0,.2,1),transform .6s cubic-bezier(.4,0,.2,1)}
+  html[data-anim="on"] [data-rv]{opacity:0;transform:translateY(30px)}
+  [data-btn]{cursor:pointer;transition:transform .3s cubic-bezier(.4,0,.2,1),box-shadow .3s cubic-bezier(.4,0,.2,1),background-color .3s cubic-bezier(.4,0,.2,1),border-color .3s cubic-bezier(.4,0,.2,1),color .3s cubic-bezier(.4,0,.2,1)}
+  [data-btn]:hover{transform:scale(1.02)!important;box-shadow:0 12px 30px -14px #14060A8C}
+  article,[data-card]{border-radius:12px}
+  [data-btn],button{border-radius:8px}
+  article[data-wine]{outline:1px solid transparent;outline-offset:-1px;transition:transform .3s ease,box-shadow .3s ease,outline-color .3s ease,background .3s ease!important}
+  article[data-wine]:hover{transform:translateY(-8px)!important;box-shadow:0 24px 52px -22px #2E1A1759;outline-color:#C9A76A}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
   html[data-anim="on"] [data-rv="1"]{opacity:1;transform:none}
   @keyframes kb{0%{transform:scale(1.06) translate3d(0,0,0)}50%{transform:scale(1.16) translate3d(-1.6%,-1.2%,0)}100%{transform:scale(1.06) translate3d(0,0,0)}}
   @media (max-height: 700px){
@@ -49,6 +54,7 @@
   @media (prefers-reduced-motion: reduce){
     html{scroll-behavior:auto}
     [data-rv]{opacity:1!important;transform:none!important;transition:none!important}
+    [data-btn]:hover,article[data-wine]:hover{transform:none!important;transition:none!important}
     *{animation:none!important}
   }
 </style>
@@ -61,7 +67,7 @@
     <div style="width:1px;height:100%;background:currentColor;opacity:.34"></div>
     <div style="position:absolute;top:{{ gaugePos }};left:50%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:6px;transition:top .18s linear">
       <div style="width:11px;height:11px;border:1px solid currentColor;transform:rotate(45deg);opacity:.9"></div>
-      <div style="font:500 10px/1.2 'Alegreya Sans',sans-serif;letter-spacing:.16em;color:currentColor;writing-mode:vertical-rl;text-orientation:mixed">{{ depthLabel }}</div>
+      <div style="font:500 10px/1.2 'Inter',system-ui,sans-serif;letter-spacing:.16em;color:currentColor;writing-mode:vertical-rl;text-orientation:mixed">{{ depthLabel }}</div>
     </div>
   </div>
 
@@ -69,131 +75,131 @@
   <sc-if value="{{ isWines }}" hint-placeholder-val="{{ false }}">
     <div role="dialog" aria-modal="true" aria-label="Naša vina" onClick="{{ onWineClick }}" style="position:fixed;inset:0;z-index:90;background:#EDE2D0;overflow-y:auto;overscroll-behavior:contain">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;padding:clamp(16px,2.4vw,28px) clamp(24px,5vw,64px);border-bottom:1px solid #2E1A171F;position:sticky;top:0;background:#EDE2D0F2;backdrop-filter:blur(6px);z-index:2">
-        <button type="button" onClick="{{ closeWines }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:12px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119"><span aria-hidden="true">←</span> Početna</button>
+        <button type="button" data-btn="" onClick="{{ closeWines }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:12px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119"><span aria-hidden="true">←</span> Početna</button>
         <img src="logo-vinarija-mikic.png" alt="Logo Vinarije Mikić" width="270" height="270" style="width:44px;height:auto;display:block">
       </div>
 
       <header style="background:#2A0C12;padding:clamp(64px,11vh,130px) clamp(26px,5vw,72px) clamp(56px,9vh,110px)">
-        <div style="max-width:1680px;margin:0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:clamp(20px,3vh,32px)">
-          <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#C9A76A">Naša vina</p>
-          <h1 style="font-size:clamp(34px,6vw,72px);line-height:1.06;color:#F4EDE1;max-width:18ch">Devet vina,<br>tri linije</h1>
+        <div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:clamp(20px,3vh,32px)">
+          <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#C9A76A">Naša vina</p>
+          <h1 style="font-size:clamp(36px,5vw,56px);line-height:1.1;color:#F4EDE1;max-width:18ch">Devet vina,<br>tri linije</h1>
           <span style="width:56px;height:1px;background:#C9A76A"></span>
           <p style="max-width:46ch;font-size:clamp(17px,1.9vw,20px);line-height:1.7;color:#EDE2D0D9">Sedam sorti sa pet plantaža, sve iz jednog podruma u Rečki.</p>
         </div>
       </header>
 
-      <section style="background:#EDE2D0;padding:clamp(40px,7vh,80px) clamp(26px,5vw,72px) clamp(70px,12vh,150px)">
-        <div style="max-width:1680px;margin:0 auto">
+      <section style="background:#EDE2D0;padding:96px clamp(26px,5vw,72px)">
+        <div style="max-width:1200px;margin:0 auto">
         <div style="display:flex;align-items:baseline;gap:18px;margin:clamp(38px,6vh,72px) 0 clamp(22px,3vw,32px)">
-          <h2 style="font-size:clamp(21px,2.6vw,30px);color:#5B1A24">Crna vina</h2>
+          <h2 style="font-size:clamp(28px,3.6vw,36px);color:#5B1A24">Crna vina</h2>
           <span style="flex:1;height:1px;background:#2E1A1726"></span>
-          <span style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;color:#75551F">04</span>
+          <span style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;color:#75551F">04</span>
         </div>
-        <div style="display:grid;gap:1px;background:#2E1A1720;grid-template-columns:repeat(auto-fit,minmax(258px,1fr))">
-          <article data-wine="crna-tamjanika" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+        <div style="display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(258px,1fr))">
+          <article data-wine="crna-tamjanika" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="crna-tamjanika.png" alt="Flaša vina Crna tamjanika" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Crna tamjanika</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno · autohtona sorta</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Crna tamjanika</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno · autohtona sorta</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Duboka rubin boja, crna ribizla i suvi list, zbijeni tanini.</p>
-            <button type="button" data-wine="crna-tamjanika" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="crna-tamjanika" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
-          <article data-wine="merlot-barrique" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+          <article data-wine="merlot-barrique" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="merlot-barrique.png" alt="Flaša vina Merlot Barrique" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Merlot Barrique</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno · barrique</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Merlot Barrique</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno · barrique</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Suve šljive i duvan, pun i uglačan, srednje duga završnica.</p>
-            <button type="button" data-wine="merlot-barrique" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="merlot-barrique" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
-          <article data-wine="cuvee-i-selection" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+          <article data-wine="cuvee-i-selection" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="cuvee-i-selection.png" alt="Flaša vina Cuvée I Selection" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Cuvée I Selection</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno · selekcija</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Cuvée I Selection</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno · selekcija</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Zagasito rubin, slojevit i voćan, mekanih tanina.</p>
-            <button type="button" data-wine="cuvee-i-selection" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="cuvee-i-selection" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
-          <article data-wine="pinot-noir" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+          <article data-wine="pinot-noir" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="pinot-noir.png" alt="Flaša vina Pinot Noir" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Pinot Noir</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Pinot Noir</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho crno</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Svetlija rubin, višnja i suvo cveće, živa kiselina.</p>
-            <button type="button" data-wine="pinot-noir" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="pinot-noir" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
         </div>
         <div style="display:flex;align-items:baseline;gap:18px;margin:clamp(38px,6vh,72px) 0 clamp(22px,3vw,32px)">
-          <h2 style="font-size:clamp(21px,2.6vw,30px);color:#5B1A24">Bela i rosé</h2>
+          <h2 style="font-size:clamp(28px,3.6vw,36px);color:#5B1A24">Bela i rosé</h2>
           <span style="flex:1;height:1px;background:#2E1A1726"></span>
-          <span style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;color:#75551F">04</span>
+          <span style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;color:#75551F">04</span>
         </div>
-        <div style="display:grid;gap:1px;background:#2E1A1720;grid-template-columns:repeat(auto-fit,minmax(258px,1fr))">
-          <article data-wine="chardonnay" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+        <div style="display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(258px,1fr))">
+          <article data-wine="chardonnay" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="chardonnay.png" alt="Flaša vina Chardonnay" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Chardonnay</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho belo</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Chardonnay</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho belo</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Zlatno žuta, kruška i ananas, cvetno-voćna završnica.</p>
-            <button type="button" data-wine="chardonnay" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="chardonnay" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
-          <article data-wine="sauvignon-blanc" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+          <article data-wine="sauvignon-blanc" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="sauvignon-blanc.png" alt="Flaša vina Sauvignon Blanc" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Sauvignon Blanc</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho belo</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Sauvignon Blanc</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho belo</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Tropsko voće i zova, hrskave kiseline, lagano telo.</p>
-            <button type="button" data-wine="sauvignon-blanc" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="sauvignon-blanc" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
-          <article data-wine="traminer" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+          <article data-wine="traminer" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="traminer.png" alt="Flaša vina Traminer" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Traminer</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho belo</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Traminer</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho belo</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Zova, bagrem i liči; punog tela, blage kiseline.</p>
-            <button type="button" data-wine="traminer" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="traminer" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
-          <article data-wine="pinot-rose" style="background:#F4EDE1;padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
+          <article data-wine="pinot-rose" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:18px;transition:background .5s ease" style-hover="background:#EDE2D0">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="pinot-rose.png" alt="Flaša vina Pinot Rosé" style="height:clamp(150px,18vw,200px);width:auto;max-width:100%;object-fit:contain;align-self:center">
             <div style="display:flex;flex-direction:column;gap:9px">
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(20px,2.1vw,25px);line-height:1.2;color:#3A1119">Pinot Rosé</h3>
-              <p style="font:500 10px/1.4 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho rosé</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.2;color:#3A1119">Pinot Rosé</h3>
+              <p style="font:500 10px/1.4 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Suho rosé</p>
             </div>
             <p style="font-size:16px;line-height:1.7;color:#2E1A17BF">Malina i jagoda, voćno, umereno pun i gladak.</p>
-            <button type="button" data-wine="pinot-rose" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+            <button type="button" data-btn="" data-wine="pinot-rose" style="align-self:flex-start;margin-top:auto;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
           </article>
         </div>
         <div style="display:flex;align-items:baseline;gap:18px;margin:clamp(38px,6vh,72px) 0 clamp(22px,3vw,32px)">
-          <h2 style="font-size:clamp(21px,2.6vw,30px);color:#5B1A24">Cuvée</h2>
+          <h2 style="font-size:clamp(28px,3.6vw,36px);color:#5B1A24">Cuvée</h2>
           <span style="flex:1;height:1px;background:#2E1A1726"></span>
-          <span style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;color:#75551F">01</span>
+          <span style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;color:#75551F">01</span>
         </div>
           <article data-wine="cuvee-i" style="background:#3A1119;color:#EDE2D0;display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))">
-            <div style="min-height:clamp(240px,32vw,400px);display:flex;align-items:center;justify-content:center;padding:clamp(26px,4vw,52px)">
+            <div style="min-height:clamp(240px,32vw,400px);display:flex;align-items:center;justify-content:center;padding:clamp(32px,3.6vw,48px)">
               <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="cuvee-i-selection.png" alt="Flaša vina Cuvée I" style="height:clamp(200px,26vw,320px);width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 22px 40px #00000059)">
             </div>
-            <div style="padding:clamp(30px,4.5vw,64px);display:flex;flex-direction:column;gap:20px;justify-content:center">
-              <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#C9A76A">Srebrna medalja · AWC Vienna 2013</p>
-              <h3 style="font-family:'Marcellus',Georgia,serif;font-size:clamp(28px,3.8vw,44px);line-height:1.1;color:#F4EDE1">Cuvée I</h3>
-              <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#EDE2D0D9;max-width:44ch">Zagasito rubin, slojevit i snažan; mekanih tanina i prijatnih kiselina.</p>
-              <button type="button" data-wine="cuvee-i" style="align-self:flex-start;background:none;border:1px solid #C9A76A;padding:15px 26px;min-height:48px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C9A76A" style-hover="background:#C9A76A;color:#2A0C12">Više o vinu</button>
+            <div style="padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;justify-content:center">
+              <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#C9A76A">Srebrna medalja · AWC Vienna 2013</p>
+              <h3 style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(20px,2.2vw,24px);line-height:1.1;color:#F4EDE1">Cuvée I</h3>
+              <p style="font-size:17px;line-height:1.7;color:#EDE2D0D9;max-width:44ch">Zagasito rubin, slojevit i snažan; mekanih tanina i prijatnih kiselina.</p>
+              <button type="button" data-btn="" data-wine="cuvee-i" style="align-self:flex-start;background:none;border:1px solid #C9A76A;padding:15px 26px;min-height:48px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C9A76A" style-hover="background:#C9A76A;color:#2A0C12">Više o vinu</button>
             </div>
           </article>
         </div>
       </section>
 
-      <section style="background:#2A0C12;padding:clamp(70px,12vh,150px) clamp(26px,5vw,72px)">
+      <section style="background:#2A0C12;padding:96px clamp(26px,5vw,72px)">
         <div style="max-width:760px;margin:0 auto;text-align:center;display:flex;flex-direction:column;align-items:center;gap:clamp(24px,4vh,38px)">
           <span style="width:12px;height:12px;border:1px solid #C9A76A;transform:rotate(45deg)"></span>
-          <p style="font-family:'Marcellus',Georgia,serif;font-size:clamp(24px,3.6vw,40px);line-height:1.24;color:#F4EDE1">Sva devet se degustiraju<br>na jednom mestu.</p>
-          <a href="#poseta" onClick="{{ goSection }}" style="display:inline-flex;align-items:center;min-height:52px;padding:16px 30px;background:#C9A76A;color:#2A0C12;font:500 12px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase">Zakaži degustaciju</a>
+          <p style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,3.6vw,40px);line-height:1.24;color:#F4EDE1">Sva devet se degustiraju<br>na jednom mestu.</p>
+          <a data-btn="" href="#poseta" onClick="{{ goSection }}" style="display:inline-flex;align-items:center;min-height:52px;padding:16px 30px;background:#C9A76A;color:#2A0C12;font:500 12px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase">Zakaži degustaciju</a>
         </div>
       </section>
     </div>
@@ -203,72 +209,72 @@
   <sc-if value="{{ isAbout }}" hint-placeholder-val="{{ false }}">
     <div role="dialog" aria-modal="true" aria-label="O nama" style="position:fixed;inset:0;z-index:90;background:#F4EDE1;overflow-y:auto;overscroll-behavior:contain">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;padding:clamp(16px,2.4vw,28px) clamp(24px,5vw,64px);border-bottom:1px solid #2E1A171F;position:sticky;top:0;background:#F4EDE1F2;backdrop-filter:blur(6px);z-index:2">
-        <button type="button" onClick="{{ closeAbout }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:12px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119"><span aria-hidden="true">←</span> Početna</button>
+        <button type="button" data-btn="" onClick="{{ closeAbout }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:12px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119"><span aria-hidden="true">←</span> Početna</button>
         <img src="logo-vinarija-mikic.png" alt="Logo Vinarije Mikić" width="270" height="270" style="width:44px;height:auto;display:block">
       </div>
 
       <header style="background:#2A0C12;padding:clamp(64px,11vh,130px) clamp(26px,5vw,72px) clamp(56px,9vh,110px)">
-        <div style="max-width:1680px;margin:0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:clamp(20px,3vh,32px)">
-          <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#C9A76A">O nama</p>
-          <h1 style="font-size:clamp(34px,6vw,72px);line-height:1.06;color:#F4EDE1;max-width:20ch">Porodica, kamen<br>i dvadeset devet berbi</h1>
+        <div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;align-items:flex-start;gap:clamp(20px,3vh,32px)">
+          <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.34em;text-transform:uppercase;color:#C9A76A">O nama</p>
+          <h1 style="font-size:clamp(36px,5vw,56px);line-height:1.1;color:#F4EDE1;max-width:20ch">Porodica, kamen<br>i dvadeset devet berbi</h1>
           <span style="width:56px;height:1px;background:#C9A76A"></span>
           <p style="max-width:48ch;font-size:clamp(17px,1.9vw,20px);line-height:1.7;color:#EDE2D0D9">Vinarija Mikić je porodični podrum u Rečki kod Negotina. Vino pravimo od 1997, na pet plantaža u dva vinogorja Negotinske Krajine.</p>
         </div>
       </header>
 
-      <section style="background:#F4EDE1;padding:clamp(64px,11vh,140px) clamp(26px,5vw,72px)">
-        <div style="max-width:1680px;margin:0 auto;display:grid;gap:clamp(40px,6vw,88px);grid-template-columns:repeat(auto-fit,minmax(290px,1fr))">
+      <section style="background:#F4EDE1;padding:96px clamp(26px,5vw,72px)">
+        <div style="max-width:1200px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))">
           <div style="display:flex;flex-direction:column;gap:22px;max-width:52ch">
-            <h2 style="font-size:clamp(26px,3.4vw,38px);line-height:1.14;color:#3A1119">Kako smo počeli</h2>
-            <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#2E1A17D9">Prva loza posađena je 1997. na parceli iznad Rečke. Dvadeset devet berbi kasnije radimo šest hektara pod lozom, sedam sorti grožđa i devet vina — sve iz jednog podruma.</p>
-            <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#2E1A17A6">Ništa se ne kupuje sa strane. Grožđe je naše, berba je ručna, a vino ostaje u podrumu dok ne bude spremno.</p>
+            <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.14;color:#3A1119">Kako smo počeli</h2>
+            <p style="font-size:17px;line-height:1.7;color:#2E1A17D9">Prva loza posađena je 1997. na parceli iznad Rečke. Dvadeset devet berbi kasnije radimo šest hektara pod lozom, sedam sorti grožđa i devet vina — sve iz jednog podruma.</p>
+            <p style="font-size:17px;line-height:1.7;color:#2E1A17A6">Ništa se ne kupuje sa strane. Grožđe je naše, berba je ručna, a vino ostaje u podrumu dok ne bude spremno.</p>
           </div>
           <div style="display:flex;flex-direction:column;gap:22px;max-width:52ch">
-            <h2 style="font-size:clamp(26px,3.4vw,38px);line-height:1.14;color:#3A1119">Kako radimo</h2>
-            <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#2E1A17D9">Manje intervencija, više vremena. Fermentacija na kontrolisanoj temperaturi, odležavanje u hrastu za crna vina, hladan kamen pivnice za sve ostalo.</p>
-            <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#2E1A17A6">Kapacitet je namerno mali — koliko dve ruke mogu da isprate od loze do flaše.</p>
+            <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.14;color:#3A1119">Kako radimo</h2>
+            <p style="font-size:17px;line-height:1.7;color:#2E1A17D9">Manje intervencija, više vremena. Fermentacija na kontrolisanoj temperaturi, odležavanje u hrastu za crna vina, hladan kamen pivnice za sve ostalo.</p>
+            <p style="font-size:17px;line-height:1.7;color:#2E1A17A6">Kapacitet je namerno mali — koliko dve ruke mogu da isprate od loze do flaše.</p>
           </div>
         </div>
       </section>
 
-      <section style="background:#3A1119;padding:clamp(64px,11vh,140px) clamp(26px,5vw,72px)">
-        <div style="max-width:1680px;margin:0 auto;display:grid;gap:1px;background:#EDE2D01F;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))">
-          <div style="background:#3A1119;padding:clamp(28px,4vw,46px);display:flex;flex-direction:column;gap:12px">
-            <span data-count="1997" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">1997</span>
-            <span style="font:500 10px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">Prva sadnja</span>
+      <section style="background:#3A1119;padding:96px clamp(26px,5vw,72px)">
+        <div style="max-width:1200px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr))">
+          <div data-card="" style="background:#3A1119;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:12px">
+            <span data-count="1997" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">1997</span>
+            <span style="font:500 10px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">Prva sadnja</span>
           </div>
-          <div style="background:#3A1119;padding:clamp(28px,4vw,46px);display:flex;flex-direction:column;gap:12px">
-            <span data-count="6" data-count-suffix=" ha" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">6 ha</span>
-            <span style="font:500 10px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">Pod lozom</span>
+          <div data-card="" style="background:#3A1119;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:12px">
+            <span data-count="6" data-count-suffix=" ha" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">6 ha</span>
+            <span style="font:500 10px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">Pod lozom</span>
           </div>
-          <div style="background:#3A1119;padding:clamp(28px,4vw,46px);display:flex;flex-direction:column;gap:12px">
-            <span data-count="7" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">7</span>
-            <span style="font:500 10px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">Sorti grožđa</span>
+          <div data-card="" style="background:#3A1119;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:12px">
+            <span data-count="7" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">7</span>
+            <span style="font:500 10px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">Sorti grožđa</span>
           </div>
-          <div style="background:#3A1119;padding:clamp(28px,4vw,46px);display:flex;flex-direction:column;gap:12px">
-            <span data-count="2013" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">2013</span>
-            <span style="font:500 10px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">AWC Vienna</span>
+          <div data-card="" style="background:#3A1119;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:12px">
+            <span data-count="2013" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(40px,5.4vw,64px);line-height:1;color:#C9A76A;font-variant-numeric:tabular-nums">2013</span>
+            <span style="font:500 10px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D0BF">AWC Vienna</span>
           </div>
         </div>
       </section>
 
-      <section style="background:#EDE2D0;padding:clamp(64px,11vh,140px) clamp(26px,5vw,72px)">
-        <div style="max-width:1680px;margin:0 auto;display:grid;gap:clamp(40px,6vw,80px);grid-template-columns:repeat(auto-fit,minmax(290px,1fr));align-items:center">
+      <section style="background:#EDE2D0;padding:96px clamp(26px,5vw,72px)">
+        <div style="max-width:1200px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));align-items:center">
           <img src="podrum.jpg" alt="Kamena pivnica sa hrastovim buradima i flašama u nišama" style="width:100%;min-height:clamp(280px,42vh,460px);height:clamp(280px,42vh,460px);object-fit:cover;display:block;border:1px solid #2E1A171F">
           <div style="display:flex;flex-direction:column;gap:24px;max-width:48ch">
-            <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F">Podrum</p>
-            <h2 style="font-size:clamp(28px,4.4vw,48px);line-height:1.1;color:#3A1119">Kamen radi<br>umesto mašine</h2>
-            <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#2E1A17D9">Naš podrum je jedna od pivnica rajačko-rogljevačkog vinogorja — zidan u 19. veku, ukopan u padinu, sa temperaturom koja se preko godine ne menja.</p>
-            <a href="#poseta" onClick="{{ goSection }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:16px 30px;background:#5B1A24;color:#F4EDE1;font:500 12px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;align-self:flex-start" style-hover="background:#3A1119">Poseti vinariju</a>
+            <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F">Podrum</p>
+            <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.1;color:#3A1119">Kamen radi<br>umesto mašine</h2>
+            <p style="font-size:17px;line-height:1.7;color:#2E1A17D9">Naš podrum je jedna od pivnica rajačko-rogljevačkog vinogorja — zidan u 19. veku, ukopan u padinu, sa temperaturom koja se preko godine ne menja.</p>
+            <a href="#poseta" onClick="{{ goSection }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:16px 30px;background:#5B1A24;color:#F4EDE1;font:500 12px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;align-self:flex-start" style-hover="background:#3A1119">Poseti vinariju</a>
           </div>
         </div>
       </section>
 
-      <section style="background:#2A0C12;padding:clamp(70px,12vh,150px) clamp(26px,5vw,72px)">
+      <section style="background:#2A0C12;padding:96px clamp(26px,5vw,72px)">
         <div style="max-width:820px;margin:0 auto;text-align:center;display:flex;flex-direction:column;align-items:center;gap:clamp(24px,4vh,38px)">
           <span style="width:12px;height:12px;border:1px solid #C9A76A;transform:rotate(45deg)"></span>
-          <p style="font-family:'Marcellus',Georgia,serif;font-size:clamp(24px,3.6vw,42px);line-height:1.24;color:#F4EDE1">Vino se ne pravi u podrumu.<br>Podrum ga samo sačuva.</p>
-          <a href="#vina" onClick="{{ goSection }}" style="border:1px solid #C9A76A;padding:15px 28px;min-height:48px;display:inline-flex;align-items:center;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C9A76A" style-hover="background:#C9A76A;color:#2A0C12">Naša vina</a>
+          <p style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,3.6vw,42px);line-height:1.24;color:#F4EDE1">Vino se ne pravi u podrumu.<br>Podrum ga samo sačuva.</p>
+          <a data-btn="" href="#vina" onClick="{{ goSection }}" style="border:1px solid #C9A76A;padding:15px 28px;min-height:48px;display:inline-flex;align-items:center;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C9A76A" style-hover="background:#C9A76A;color:#2A0C12">Naša vina</a>
         </div>
       </section>
     </div>
@@ -278,52 +284,52 @@
   <sc-if value="{{ hasDetail }}" hint-placeholder-val="{{ false }}">
     <div role="dialog" aria-modal="true" aria-label="Detalji vina" style="position:fixed;inset:0;z-index:90;background:#F4EDE1;overflow-y:auto;overscroll-behavior:contain">
       <div style="display:flex;align-items:center;justify-content:space-between;gap:20px;padding:clamp(16px,2.4vw,28px) clamp(24px,5vw,64px);border-bottom:1px solid #2E1A171F;position:sticky;top:0;background:#F4EDE1F2;backdrop-filter:blur(6px);z-index:2">
-        <button type="button" onClick="{{ closeDetail }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:12px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119"><span aria-hidden="true">←</span> Sva vina</button>
+        <button type="button" data-btn="" onClick="{{ closeDetail }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:12px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119"><span aria-hidden="true">←</span> Sva vina</button>
         <img src="logo-vinarija-mikic.png" alt="Logo Vinarije Mikić" width="270" height="270" style="width:44px;height:auto;display:block">
       </div>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:stretch;max-width:1680px;margin:0 auto">
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));align-items:stretch;max-width:1200px;margin:0 auto">
         <div style="position:relative;background:transparent;height:clamp(340px,64vh,680px);max-height:68vh;display:flex;align-items:center;justify-content:center;padding:0;overflow:hidden">
           <sc-if value="{{ hasPhoto }}" hint-placeholder-val="{{ false }}">
             <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{ detailImg }}" alt="{{ detailAlt }}" loading="eager" decoding="sync" fetchpriority="high" style="width:auto;height:100%;max-height:100%;max-width:100%;object-fit:contain;display:block">
           </sc-if>
           <sc-if value="{{ noPhoto }}" hint-placeholder-val="{{ false }}">
-            <span style="font:400 10px/1.9 ui-monospace,monospace;letter-spacing:.16em;color:#EDE2D0B3;text-align:center;max-width:26ch;border:1px solid #C9A76A40;padding:clamp(30px,5vw,56px) clamp(20px,3vw,34px)">{{ detailPhotoBrief }}</span>
+            <span style="font:400 10px/1.9 ui-monospace,monospace;letter-spacing:.16em;color:#EDE2D0B3;text-align:center;max-width:26ch;border:1px solid #C9A76A40;padding:clamp(32px,3.6vw,48px)">{{ detailPhotoBrief }}</span>
           </sc-if>
         </div>
         <div style="padding:clamp(36px,5.5vw,80px) clamp(26px,5vw,72px);display:flex;flex-direction:column;gap:clamp(22px,3vw,30px);justify-content:center">
-          <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#75551F">{{ detailLine }}</p>
-          <h2 style="font-size:clamp(32px,5vw,58px);line-height:1.08;color:#3A1119">{{ detailName }}</h2>
+          <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#75551F">{{ detailLine }}</p>
+          <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.08;color:#3A1119">{{ detailName }}</h2>
           <span style="width:44px;height:1px;background:#C9A76A"></span>
-          <p style="font-size:clamp(17px,1.8vw,19px);line-height:1.7;color:#2E1A17D9;max-width:46ch">{{ detailIntro }}</p>
+          <p style="font-size:17px;line-height:1.7;color:#2E1A17D9;max-width:46ch">{{ detailIntro }}</p>
           <dl style="margin:0;display:flex;flex-direction:column;gap:0;border-top:1px solid #2E1A171F;max-width:52ch">
             <div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid #2E1A171F">
-              <dt style="flex:0 0 108px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Boja</dt>
+              <dt style="flex:0 0 108px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Boja</dt>
               <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">{{ detailBoja }}</dd>
             </div>
             <div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid #2E1A171F">
-              <dt style="flex:0 0 108px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Miris</dt>
+              <dt style="flex:0 0 108px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Miris</dt>
               <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">{{ detailMiris }}</dd>
             </div>
             <div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid #2E1A171F">
-              <dt style="flex:0 0 108px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Ukus</dt>
+              <dt style="flex:0 0 108px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Ukus</dt>
               <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">{{ detailUkus }}</dd>
             </div>
             <div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid #2E1A171F">
-              <dt style="flex:0 0 108px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Služiti na</dt>
+              <dt style="flex:0 0 108px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Služiti na</dt>
               <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">{{ detailTemp }}</dd>
             </div>
             <div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid #2E1A171F">
-              <dt style="flex:0 0 108px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Uz jelo</dt>
+              <dt style="flex:0 0 108px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Uz jelo</dt>
               <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">{{ detailHrana }}</dd>
             </div>
             <div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid #2E1A171F">
-              <dt style="flex:0 0 108px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Vinogorje</dt>
+              <dt style="flex:0 0 108px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Vinogorje</dt>
               <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">{{ detailVinogorje }}</dd>
             </div>
           </dl>
           <div style="display:flex;flex-wrap:wrap;gap:18px;align-items:center">
-            <a href="#poseta" onClick="{{ goSection }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:16px 30px;background:#5B1A24;color:#F4EDE1;font:500 12px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase" style-hover="background:#3A1119">Degustacija u podrumu</a>
-            <button type="button" onClick="{{ nextWine }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Sledeće vino <span aria-hidden="true">→</span></button>
+            <a href="#poseta" onClick="{{ goSection }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:16px 30px;background:#5B1A24;color:#F4EDE1;font:500 12px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase" style-hover="background:#3A1119">Degustacija u podrumu</a>
+            <button type="button" data-btn="" onClick="{{ nextWine }}" style="background:none;border:0;padding:10px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Sledeće vino <span aria-hidden="true">→</span></button>
           </div>
         </div>
       </div>
@@ -331,21 +337,21 @@
   </sc-if>
 
   <!-- HEADER -->
-  <header style="position:fixed;top:0;left:0;right:0;z-index:70;background:{{ hdrBg }};border-bottom:1px solid {{ hdrLine }};backdrop-filter:blur(8px);transition:background .5s ease,border-color .5s ease,padding .5s cubic-bezier(.2,.7,.2,1);display:flex;align-items:center;justify-content:space-between;gap:clamp(18px,3vw,40px);padding:{{ hdrPad }} clamp(22px,5vw,72px)">
+  <header style="position:fixed;top:0;left:0;right:0;z-index:70;background:{{ hdrBg }};border-bottom:1px solid {{ hdrLine }};backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);box-shadow:{{ hdrShadow }};height:{{ hdrHeight }};transition:background .4s cubic-bezier(.4,0,.2,1),border-color .4s ease,box-shadow .4s ease,height .4s cubic-bezier(.4,0,.2,1);display:flex;align-items:center;justify-content:space-between;gap:clamp(18px,3vw,40px);padding:0 clamp(22px,5vw,72px)">
     <a href="#hero" style="display:flex;align-items:center;gap:14px;flex:0 0 auto" aria-label="Vinarija Mikić, početak strane">
       <img src="logo-vinarija-mikic.png" alt="Logo Vinarije Mikić" width="270" height="270" style="width:{{ hdrLogo }};height:auto;display:block;transition:width .5s cubic-bezier(.2,.7,.2,1)">
     </a>
 
     <nav aria-label="Glavna navigacija" style="display:{{ navDisplay }};align-items:center;gap:clamp(20px,2.6vw,38px)">
-      <a href="#hero" style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Početna</a>
-      <a href="#o-nama-strana" style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">O nama</a>
-      <a href="#vina-strana" style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Naša vina</a>
-      <a href="#nagrade" style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Aktuelno</a>
-      <a href="#kontakt" style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Kontakt</a>
-      <a href="#poseta" style="border:1px solid #C9A76A99;color:#EDE2D0;padding:11px 22px;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;min-height:44px;display:flex;align-items:center" style-hover="background:#C9A76A;color:#2A0C12;border-color:#C9A76A">Poseti vinariju</a>
+      <a href="#hero" style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Početna</a>
+      <a href="#o-nama-strana" style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">O nama</a>
+      <a href="#vina-strana" style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Naša vina</a>
+      <a href="#nagrade" style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Aktuelno</a>
+      <a href="#kontakt" style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#EDE2D0D9;min-height:44px;display:flex;align-items:center" style-hover="color:#C9A76A">Kontakt</a>
+      <a data-btn="" href="#poseta" style="border:1px solid #C9A76A99;color:#EDE2D0;padding:11px 22px;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;min-height:44px;display:flex;align-items:center" style-hover="background:#C9A76A;color:#2A0C12;border-color:#C9A76A">Poseti vinariju</a>
     </nav>
 
-    <button type="button" onClick="{{ toggleMenu }}" aria-expanded="{{ menuExpanded }}" aria-label="Meni" style="display:{{ burgerDisplay }};flex-direction:column;justify-content:center;gap:6px;width:46px;height:46px;background:none;border:0;cursor:pointer;padding:0;align-items:flex-end">
+    <button type="button" data-btn="" onClick="{{ toggleMenu }}" aria-expanded="{{ menuExpanded }}" aria-label="Meni" style="display:{{ burgerDisplay }};flex-direction:column;justify-content:center;gap:6px;width:46px;height:46px;background:none;border:0;cursor:pointer;padding:0;align-items:flex-end">
       <span aria-hidden="true" style="display:block;width:26px;height:1px;background:#EDE2D0"></span>
       <span aria-hidden="true" style="display:block;width:18px;height:1px;background:#C9A76A"></span>
       <span aria-hidden="true" style="display:block;width:26px;height:1px;background:#EDE2D0"></span>
@@ -353,250 +359,254 @@
   </header>
 
   <div onClick="{{ closeMenu }}" style="position:fixed;inset:0;z-index:65;background:#2A0C12FA;display:{{ menuDisplay }};flex-direction:column;align-items:flex-start;justify-content:center;gap:clamp(14px,2.4vh,22px);padding:clamp(80px,14vh,140px) clamp(30px,8vw,64px)">
-    <a href="#hero" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Početna</a>
-    <a href="#o-nama-strana" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">O nama</a>
-    <a href="#vina-strana" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Naša vina</a>
-    <a href="#nagrade" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Aktuelno</a>
-    <a href="#kontakt" style="font-family:'Marcellus',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Kontakt</a>
+    <a href="#hero" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Početna</a>
+    <a href="#o-nama-strana" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">O nama</a>
+    <a href="#vina-strana" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Naša vina</a>
+    <a href="#nagrade" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Aktuelno</a>
+    <a href="#kontakt" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(28px,8vw,40px);line-height:1.1;color:#F4EDE1;min-height:52px;display:flex;align-items:center" style-hover="color:#C9A76A">Kontakt</a>
     <span style="width:56px;height:1px;background:#C9A76A;margin:clamp(8px,1.6vh,14px) 0"></span>
-    <a href="#poseta" style="display:inline-flex;align-items:center;min-height:52px;padding:16px 30px;background:#C9A76A;color:#2A0C12;font:500 12px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase">Zakaži degustaciju</a>
+    <a data-btn="" href="#poseta" style="display:inline-flex;align-items:center;min-height:52px;padding:16px 30px;background:#C9A76A;color:#2A0C12;font:500 12px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase">Zakaži degustaciju</a>
   </div>
 
+  <main aria-label="Glavni sadržaj">
   <!-- 1. HERO -->
   <section id="hero" data-screen-label="01 Hero" data-tone="dark" style="position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;background:#2A0C12;overflow:hidden">
     <img src="hero-vinograd.jpg" alt="Vinograd Vinarije Mikić u Negotinskoj Krajini na zalasku sunca" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 62%"><div style="position:absolute;inset:0;background:#2A0C1259"></div>
     <div style="position:absolute;inset:0;background:linear-gradient(180deg,#2A0C12F2 0%,#2A0C12A6 42%,#2A0C1273 62%,#2A0C12F2 100%)"></div>
     <div style="position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:calc({{ hdrH }} + clamp(30px,5vh,64px)) clamp(26px,5vw,72px) clamp(72px,10vh,110px);max-width:1000px;width:100%">
-      <p data-rv="" style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.36em;text-transform:uppercase;color:#C9A76A">Est. 1997 · Negotinska Krajina</p>
+      <p data-rv="" style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.36em;text-transform:uppercase;color:#C9A76A">Est. 1997 · Negotinska Krajina</p>
       <div data-rv="" style="display:flex;align-items:center;gap:12px;margin:clamp(22px,3.4vh,34px) 0">
         <span style="width:clamp(34px,6vw,58px);height:1px;background:#C9A76A99"></span>
         <span style="width:6px;height:6px;border:1px solid #C9A76A;transform:rotate(45deg)"></span>
         <span style="width:clamp(34px,6vw,58px);height:1px;background:#C9A76A99"></span>
       </div>
-      <h1 data-rv="" style="font-size:clamp(32px,7.4vw,78px);line-height:1.1;color:#F4EDE1;letter-spacing:.03em;text-transform:uppercase;max-width:22ch;display:flex;flex-direction:column;align-items:center">
-        <span>Vino iz kamena</span>
+      <h1 data-rv="" style="font-size:clamp(36px,5vw,56px);line-height:1.1;color:#F4EDE1;text-transform:uppercase;max-width:22ch;display:flex;flex-direction:column;align-items:center">
+        <span style="display:flex;align-items:center;justify-content:center;min-height:1.1em">
+          <span style="white-space:pre">{{ typedTitle }}</span>
+          <sc-if value="{{ caretOn }}" hint-placeholder-val="{{ false }}"><span aria-hidden="true" style="display:inline-block;width:.42ch;height:.82em;margin-left:.12ch;background:#C9A76A;animation:blink 1s step-end infinite"></span></sc-if>
+        </span>
         <span style="display:flex;align-items:center;justify-content:center;height:1.22em;width:100%">
           <span aria-live="polite" style="display:block;white-space:nowrap;font-size:{{ phraseSize }};opacity:{{ phraseOpacity }};transform:{{ phraseShift }};transition:opacity 1.1s cubic-bezier(.2,.7,.2,1),transform 1.1s cubic-bezier(.2,.7,.2,1)">{{ phrase }}</span>
         </span>
       </h1>
-      <p data-rv="" style="max-width:44ch;font-size:clamp(17px,2vw,19px);line-height:1.7;color:#EDE2D0D9;margin-top:clamp(24px,3.6vh,38px)">Vinarija Mikić — dvadeset devet godina, pet plantaža i podrum ukopan u padinu Rajca.</p>
-      <a data-rv="" href="#poseta" style="display:inline-flex;align-items:center;gap:16px;min-height:54px;margin-top:clamp(30px,5vh,48px);padding:17px 34px;border:1px solid #C9A76A;color:#2A0C12;background:#C9A76A;font:500 12px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase" style-hover="background:transparent;color:#C9A76A">Zakaži degustaciju <span style="font-size:14px">→</span></a>
+      <p data-rv="" style="max-width:44ch;font-size:17px;line-height:1.7;color:#EDE2D0D9;margin-top:clamp(24px,3.6vh,38px)">Vinarija Mikić — dvadeset devet godina, pet plantaža i podrum ukopan u padinu Rajca.</p>
+      <a data-btn="" data-rv="" href="#poseta" style="display:inline-flex;align-items:center;gap:16px;min-height:54px;margin-top:clamp(30px,5vh,48px);padding:17px 34px;border:1px solid #C9A76A;color:#2A0C12;background:#C9A76A;font:500 12px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase" style-hover="background:transparent;color:#C9A76A">Zakaži degustaciju <span style="font-size:14px">→</span></a>
     </div>
-    <a href="#vina" data-hero-cue="" aria-label="Pređi na vina" style="position:absolute;bottom:clamp(26px,4vh,44px);left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;min-height:44px;color:#C9A76A;font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.26em;text-transform:uppercase" style-hover="color:#F4EDE1">Naša vina<span style="width:1px;height:clamp(24px,4vh,40px);background:linear-gradient(currentColor,transparent)"></span></a>
+    <a href="#vina" data-hero-cue="" aria-label="Pređi na vina" style="position:absolute;bottom:clamp(26px,4vh,44px);left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:10px;min-height:44px;color:#C9A76A;font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.26em;text-transform:uppercase" style-hover="color:#F4EDE1">Naša vina<span style="width:1px;height:clamp(24px,4vh,40px);background:linear-gradient(currentColor,transparent)"></span></a>
   </section>
 
   <!-- 2. PRIČA + CITAT -->
-  <section id="o-nama" data-screen-label="02 Priča" data-tone="dark" style="background:#3A1119;padding:clamp(88px,14vh,180px) clamp(30px,5vw,72px)">
-    <div style="max-width:1680px;margin:0 auto;display:grid;gap:clamp(52px,7vw,96px);grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
+  <section id="o-nama" data-screen-label="02 Priča" data-tone="dark" style="background:#3A1119;padding:96px clamp(30px,5vw,72px)">
+    <div style="max-width:1200px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
       <div data-rv="">
-        <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#C9A76A;margin-bottom:clamp(28px,4vw,44px)">Priča</p>
+        <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#C9A76A;margin-bottom:clamp(28px,4vw,44px)">Priča</p>
         <blockquote style="margin:0;border:0">
-          <p style="font-family:'Marcellus',Georgia,serif;font-size:clamp(27px,4.4vw,50px);line-height:1.22;color:#F4EDE1;letter-spacing:-.005em">Vino je među napitcima najkorisnije, među lekovima najukusnije, a među jelima najprijatnije.</p>
+          <p style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(27px,4.4vw,50px);line-height:1.22;color:#F4EDE1;letter-spacing:-.005em">Vino je među napitcima najkorisnije, među lekovima najukusnije, a među jelima najprijatnije.</p>
           <footer style="margin-top:clamp(22px,3vw,32px);display:flex;align-items:center;gap:14px">
             <span style="width:40px;height:1px;background:#C9A76A"></span>
-            <cite style="font-style:normal;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Plutarh</cite>
+            <cite style="font-style:normal;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Plutarh</cite>
           </footer>
         </blockquote>
       </div>
       <div data-rv="" style="display:flex;flex-direction:column;gap:clamp(22px,3vw,30px);justify-content:center;max-width:52ch">
-        <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#EDE2D0E6">Negotinska Krajina pravi vino duže nego što pamti. Peskovito-glinovita zemlja, dunavski vetar i strme padine Rajca i Rogljeva daju grožđe koje ne traži pomoć u podrumu.</p>
-          <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#EDE2D0A6">Porodica Mikić radi ovde od 1997. Devet vina, sedam sorti, jedan pristup: manje intervencije, više vremena.</p>
+        <p style="font-size:17px;line-height:1.7;color:#EDE2D0E6">Negotinska Krajina pravi vino duže nego što pamti. Peskovito-glinovita zemlja, dunavski vetar i strme padine Rajca i Rogljeva daju grožđe koje ne traži pomoć u podrumu.</p>
+          <p style="font-size:17px;line-height:1.7;color:#EDE2D0A6">Porodica Mikić radi ovde od 1997. Devet vina, sedam sorti, jedan pristup: manje intervencije, više vremena.</p>
       </div>
     </div>
   </section>
 
   <!-- 3. BROJKE -->
-  <section data-screen-label="03 Brojke" data-tone="light" style="background:#F4EDE1;padding:clamp(76px,12vh,140px) clamp(30px,5vw,72px)">
-    <div data-rv="" style="max-width:1680px;margin:0 auto;display:grid;gap:1px;background:#2E1A1714;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
-      <div style="background:#F4EDE1;padding:clamp(26px,4vw,44px) clamp(18px,2vw,28px);display:flex;flex-direction:column;gap:10px">
-        <span data-count="29" style="font-family:'Marcellus',serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">29</span>
-        <span style="font:500 11px/1.5 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Godina rada</span>
+  <section data-screen-label="03 Brojke" data-tone="light" style="background:#F4EDE1;padding:96px clamp(30px,5vw,72px)">
+    <div data-rv="" style="max-width:1200px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+      <div data-card="" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:10px">
+        <span data-count="29" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">29</span>
+        <span style="font:500 11px/1.5 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Godina rada</span>
       </div>
-      <div style="background:#F4EDE1;padding:clamp(26px,4vw,44px) clamp(18px,2vw,28px);display:flex;flex-direction:column;gap:10px">
-        <span data-count="5" style="font-family:'Marcellus',serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">5</span>
-        <span style="font:500 11px/1.5 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Plantaža</span>
+      <div data-card="" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:10px">
+        <span data-count="5" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">5</span>
+        <span style="font:500 11px/1.5 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Plantaža</span>
       </div>
-      <div style="background:#F4EDE1;padding:clamp(26px,4vw,44px) clamp(18px,2vw,28px);display:flex;flex-direction:column;gap:10px">
-        <span data-count="9" style="font-family:'Marcellus',serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">9</span>
-        <span style="font:500 11px/1.5 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Vrsta vina</span>
+      <div data-card="" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:10px">
+        <span data-count="9" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">9</span>
+        <span style="font:500 11px/1.5 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Vrsta vina</span>
       </div>
-      <div style="background:#F4EDE1;padding:clamp(26px,4vw,44px) clamp(18px,2vw,28px);display:flex;flex-direction:column;gap:10px">
-        <span data-count="7" style="font-family:'Marcellus',serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">7</span>
-        <span style="font:500 11px/1.5 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Sorti grožđa</span>
+      <div data-card="" style="background:#F4EDE1;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:10px">
+        <span data-count="7" style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(52px,7vw,84px);line-height:1;color:#5B1A24;font-variant-numeric:tabular-nums">7</span>
+        <span style="font:500 11px/1.5 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#6B4A3E">Sorti grožđa</span>
       </div>
     </div>
   </section>
 
   <!-- 4. NAŠA VINA -->
-  <section id="vina" data-screen-label="04 Vina" data-tone="light" onClick="{{ onWineClick }}" style="background:#EDE2D0;padding:clamp(88px,14vh,170px) clamp(30px,5vw,72px)">
-    <div style="max-width:1680px;margin:0 auto">
+  <section id="vina" data-screen-label="04 Vina" data-tone="light" onClick="{{ onWineClick }}" style="background:#EDE2D0;padding:96px clamp(30px,5vw,72px)">
+    <div style="max-width:1200px;margin:0 auto">
       <header data-rv="" style="max-width:44ch;margin-bottom:clamp(52px,8vh,96px)">
-        <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F;margin-bottom:22px">Naša vina</p>
-        <h2 style="font-size:clamp(34px,5.6vw,62px);line-height:1.08;color:#3A1119">Devet vina,<br>tri linije</h2>
+        <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F;margin-bottom:22px">Naša vina</p>
+        <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.08;color:#3A1119">Devet vina,<br>tri linije</h2>
       </header>
 
       <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:clamp(26px,3.5vw,40px)" data-rv="">
-        <h3 style="font-size:clamp(21px,2.4vw,28px);color:#5B1A24">Crna vina</h3>
+        <h3 style="font-size:clamp(20px,2.2vw,24px);color:#5B1A24">Crna vina</h3>
         <span style="flex:1;height:1px;background:#2E1A1726"></span>
-        <span style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;color:#75551F">04</span>
+        <span style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;color:#75551F">04</span>
       </div>
-      <div style="display:grid;gap:1px;background:#2E1A1720;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));margin-bottom:clamp(64px,9vh,110px)">
-        <article data-rv="" data-wine="crna-tamjanika" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+      <div style="display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));margin-bottom:clamp(64px,9vh,110px)">
+        <article data-rv="" data-wine="crna-tamjanika" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="crna-tamjanika.png" alt="Vino cabernet" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Crna tamjanika</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · barrique</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Crna tamjanika</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · barrique</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Duboka rubin, gust venac</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Crna ribizla, cedar, suvi list</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Zbijeni tanini, dug i suh završetak</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Duboka rubin, gust venac</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Crna ribizla, cedar, suvi list</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Zbijeni tanini, dug i suh završetak</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="crna-tamjanika" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="crna-tamjanika" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
-        <article data-rv="" data-wine="merlot-barrique" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+        <article data-rv="" data-wine="merlot-barrique" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="merlot-barrique.png" alt="Vino merlot barrique" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Merlot Barrique</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · barrique</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Merlot Barrique</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · barrique</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Rubin</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Kompleksan: suve šljive, duvan, šumsko voće</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Pun, dosta uglačanih tanina, blage kiseline, srednje duga završnica</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Rubin</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Kompleksan: suve šljive, duvan, šumsko voće</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Pun, dosta uglačanih tanina, blage kiseline, srednje duga završnica</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="merlot-barrique" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="merlot-barrique" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
-        <article data-rv="" data-wine="cuvee-i-selection" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+        <article data-rv="" data-wine="cuvee-i-selection" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="cuvee-i-selection.png" alt="Vino prokupac" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Cuvée I Selection</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · autohtona sorta</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Cuvée I Selection</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · autohtona sorta</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Svetlija rubin, bistra</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Višnja, suvo cveće, papreno</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Živa kiselina, kratak grip</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Svetlija rubin, bistra</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Višnja, suvo cveće, papreno</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Živa kiselina, kratak grip</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="cuvee-i-selection" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="cuvee-i-selection" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
-        <article data-rv="" data-wine="pinot-noir" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+        <article data-rv="" data-wine="pinot-noir" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="pinot-noir.png" alt="Vino gamay" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Pinot Noir</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · mlado</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Pinot Noir</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho crno · mlado</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Purpurna, providna</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Malina, ljubičica</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Lak, sočan, bez tanina</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Purpurna, providna</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Malina, ljubičica</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Lak, sočan, bez tanina</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="pinot-noir" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="pinot-noir" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
       </div>
 
       <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:clamp(26px,3.5vw,40px)" data-rv="">
-        <h3 style="font-size:clamp(21px,2.4vw,28px);color:#5B1A24">Bela i rosé</h3>
+        <h3 style="font-size:clamp(20px,2.2vw,24px);color:#5B1A24">Bela i rosé</h3>
         <span style="flex:1;height:1px;background:#2E1A1726"></span>
-        <span style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;color:#75551F">04</span>
+        <span style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;color:#75551F">04</span>
       </div>
-      <div style="display:grid;gap:1px;background:#2E1A1720;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));margin-bottom:clamp(64px,9vh,110px)">
-        <article data-rv="" data-wine="chardonnay" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+      <div style="display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(272px,1fr));margin-bottom:clamp(64px,9vh,110px)">
+        <article data-rv="" data-wine="chardonnay" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="chardonnay.png" alt="Vino chardonnay" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Chardonnay</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho belo</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Chardonnay</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho belo</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Zlatno žuta</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Veoma svež i nežan; kruška i ananas uz cvetne note</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Suho, cvetno-voćna završnica</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Zlatno žuta</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Veoma svež i nežan; kruška i ananas uz cvetne note</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Suho, cvetno-voćna završnica</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="chardonnay" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="chardonnay" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
-        <article data-rv="" data-wine="sauvignon-blanc" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+        <article data-rv="" data-wine="sauvignon-blanc" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="sauvignon-blanc.png" alt="Vino sauvignon blanc" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Sauvignon Blanc</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho belo</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Sauvignon Blanc</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho belo</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Svetlo žuta</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Tropsko voće, zova, zelena paprika</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Suho, hrskave kiseline, laganog tela</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Svetlo žuta</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Tropsko voće, zova, zelena paprika</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Suho, hrskave kiseline, laganog tela</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="sauvignon-blanc" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="sauvignon-blanc" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
-        <article data-rv="" data-wine="traminer" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+        <article data-rv="" data-wine="traminer" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="traminer.png" alt="Vino traminer" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Traminer</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho belo</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Traminer</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho belo</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Zlatno žuta</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Slatkasti cvetni mirisi zove, bagrema i ličija</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Suho, punog tela, blage kiseline, srednje duga završnica</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Zlatno žuta</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Slatkasti cvetni mirisi zove, bagrema i ličija</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Suho, punog tela, blage kiseline, srednje duga završnica</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="traminer" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="traminer" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
-        <article data-rv="" data-wine="pinot-rose" style="background:#EDE2D0;padding:clamp(28px,3.4vw,42px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
+        <article data-rv="" data-wine="pinot-rose" style="background:#EDE2D0;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:20px;transition:background .5s ease" style-hover="background:#F4EDE1">
           <div style="position:relative;height:clamp(170px,22vw,240px);background:transparent;transition:transform .7s cubic-bezier(.2,.7,.2,1)" style-hover="transform:translateY(-14px) scale(1.04)">
             <img src="pinot-rose.png" alt="Vino pinot rose" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:contain;display:block">
           </div>
           <div>
-            <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Pinot Rosé</h4>
-            <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho rosé</p>
+            <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(23px,2.4vw,28px);color:#3A1119;line-height:1.15">Pinot Rosé</h4>
+            <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F;margin-top:10px">Suho rosé</p>
           </div>
           <dl style="margin:0;display:flex;flex-direction:column;gap:13px">
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Srednje intenzivna rose</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Osvežavajući miris soka maline i jagode</dd></div>
-            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Voćni ukus, umereno pun i gladak</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Boja</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Srednje intenzivna rose</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Miris</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Osvežavajući miris soka maline i jagode</dd></div>
+            <div style="display:flex;gap:14px"><dt style="flex:0 0 60px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#6B4A3E">Ukus</dt><dd style="margin:0;font-size:16px;line-height:1.65;color:#2E1A17CC">Voćni ukus, umereno pun i gladak</dd></div>
           </dl>
           <span style="height:1px;background:#C9A76A;width:34px;transition:width .5s cubic-bezier(.2,.7,.2,1)" style-hover="width:100%"></span>
-          <button type="button" data-wine="pinot-rose" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
+          <button type="button" data-btn="" data-wine="pinot-rose" style="align-self:flex-start;background:none;border:0;padding:8px 0;min-height:44px;display:flex;align-items:center;gap:10px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#75551F" style-hover="color:#3A1119">Više o vinu <span aria-hidden="true">→</span></button>
         </article>
       </div>
 
       <div style="display:flex;align-items:baseline;gap:18px;margin-bottom:clamp(26px,3.5vw,40px)" data-rv="">
-        <h3 style="font-size:clamp(21px,2.4vw,28px);color:#5B1A24">Cuvée</h3>
+        <h3 style="font-size:clamp(20px,2.2vw,24px);color:#5B1A24">Cuvée</h3>
         <span style="flex:1;height:1px;background:#2E1A1726"></span>
-        <span style="font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.2em;color:#75551F">01</span>
+        <span style="font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.2em;color:#75551F">01</span>
       </div>
       <article data-rv="" data-wine="cuvee-i" style="background:#3A1119;color:#EDE2D0;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))">
         <div style="position:relative;min-height:clamp(260px,34vw,420px);background:#33101A"><img src="foto-cuvee-i.jpg" alt="Vino cuvee i" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;display:block"></div>
-        <div style="padding:clamp(34px,4.5vw,64px);display:flex;flex-direction:column;gap:22px;justify-content:center">
-          <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#C9A76A">Srebrna medalja · AWC Vienna 2013</p>
-          <h4 style="margin:0;font-family:'Marcellus',serif;font-weight:400;font-size:clamp(30px,4vw,48px);line-height:1.1;color:#F4EDE1">Cuvée I</h4>
+        <div style="padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:22px;justify-content:center">
+          <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.28em;text-transform:uppercase;color:#C9A76A">Srebrna medalja · AWC Vienna 2013</p>
+          <h4 style="margin:0;font-family:'Playfair Display',Georgia,serif;font-weight:400;font-size:clamp(30px,4vw,48px);line-height:1.1;color:#F4EDE1">Cuvée I</h4>
           <dl style="margin:0;display:flex;flex-direction:column;gap:14px;max-width:44ch">
-            <div style="display:flex;gap:16px"><dt style="flex:0 0 62px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#C9A76A">Boja</dt><dd style="margin:0;font-size:17px;line-height:1.7;color:#EDE2D0E6">Zagasito rubin</dd></div>
-            <div style="display:flex;gap:16px"><dt style="flex:0 0 62px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#C9A76A">Miris</dt><dd style="margin:0;font-size:17px;line-height:1.7;color:#EDE2D0E6">Slojevit, snažan i veoma voćan</dd></div>
-            <div style="display:flex;gap:16px"><dt style="flex:0 0 62px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#C9A76A">Ukus</dt><dd style="margin:0;font-size:17px;line-height:1.7;color:#EDE2D0E6">Kompleksan, mekanih tanina, prijatnih kiselina i izuzetno voćan</dd></div>
+            <div style="display:flex;gap:16px"><dt style="flex:0 0 62px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#C9A76A">Boja</dt><dd style="margin:0;font-size:17px;line-height:1.7;color:#EDE2D0E6">Zagasito rubin</dd></div>
+            <div style="display:flex;gap:16px"><dt style="flex:0 0 62px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#C9A76A">Miris</dt><dd style="margin:0;font-size:17px;line-height:1.7;color:#EDE2D0E6">Slojevit, snažan i veoma voćan</dd></div>
+            <div style="display:flex;gap:16px"><dt style="flex:0 0 62px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#C9A76A">Ukus</dt><dd style="margin:0;font-size:17px;line-height:1.7;color:#EDE2D0E6">Kompleksan, mekanih tanina, prijatnih kiselina i izuzetno voćan</dd></div>
           </dl>
           <div style="display:flex;flex-wrap:wrap;gap:26px;align-items:center">
-            <button type="button" data-wine="cuvee-i" style="background:none;border:1px solid #C9A76A;padding:15px 26px;min-height:48px;cursor:pointer;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C9A76A" style-hover="background:#C9A76A;color:#2A0C12">Više o vinu</button>
-            <a href="#nagrade" style="display:inline-flex;align-items:center;gap:12px;min-height:44px;color:#C9A76A;font:500 11px/1 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase" style-hover="color:#F4EDE1">O nagradi <span aria-hidden="true">→</span></a>
+            <button type="button" data-btn="" data-wine="cuvee-i" style="background:none;border:1px solid #C9A76A;padding:15px 26px;min-height:48px;cursor:pointer;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#C9A76A" style-hover="background:#C9A76A;color:#2A0C12">Više o vinu</button>
+            <a href="#nagrade" style="display:inline-flex;align-items:center;gap:12px;min-height:44px;color:#C9A76A;font:500 11px/1 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase" style-hover="color:#F4EDE1">O nagradi <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </article>
@@ -604,52 +614,52 @@
   </section>
 
   <!-- 5. NAGRADE -->
-  <section id="nagrade" data-screen-label="05 Nagrade" data-tone="dark" style="background:#2A0C12;padding:clamp(96px,16vh,190px) clamp(30px,5vw,72px)">
+  <section id="nagrade" data-screen-label="05 Nagrade" data-tone="dark" style="background:#2A0C12;padding:96px clamp(30px,5vw,72px)">
     <div data-rv="" style="max-width:820px;margin:0 auto;text-align:center;display:flex;flex-direction:column;align-items:center;gap:clamp(26px,4vh,40px)">
-      <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.32em;text-transform:uppercase;color:#C9A76A">Nagrade</p>
+      <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.32em;text-transform:uppercase;color:#C9A76A">Nagrade</p>
       <div style="width:14px;height:14px;border:1px solid #C9A76A;transform:rotate(45deg)"></div>
-      <h2 style="font-size:clamp(30px,5.4vw,58px);line-height:1.14;color:#F4EDE1">AWC Vienna<br>2013</h2>
-      <p style="max-width:46ch;font-size:clamp(17px,1.8vw,19px);line-height:1.7;color:#EDE2D0BF">Cuvée I je nagrađen na najvećem svetskom ocenjivanju vina u Beču. Jedna medalja, jedno vino, bez daljeg komentara.</p>
+      <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.14;color:#F4EDE1">AWC Vienna<br>2013</h2>
+      <p style="max-width:46ch;font-size:17px;line-height:1.7;color:#EDE2D0BF">Cuvée I je nagrađen na najvećem svetskom ocenjivanju vina u Beču. Jedna medalja, jedno vino, bez daljeg komentara.</p>
       <span style="width:1px;height:clamp(40px,7vh,72px);background:linear-gradient(#C9A76A,#C9A76A00)"></span>
     </div>
   </section>
 
   <!-- 6. PIVNICE -->
-  <section data-screen-label="06 Pivnice" data-tone="light" style="background:#EDE2D0;padding:clamp(88px,14vh,170px) clamp(30px,5vw,72px)">
-    <div style="max-width:1680px;margin:0 auto;display:grid;gap:clamp(40px,6vw,80px);grid-template-columns:repeat(auto-fit,minmax(290px,1fr));align-items:center">
+  <section data-screen-label="06 Pivnice" data-tone="light" style="background:#EDE2D0;padding:96px clamp(30px,5vw,72px)">
+    <div style="max-width:1200px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));align-items:center">
       <div data-rv="" style="position:relative;aspect-ratio:5/4;min-height:clamp(280px,40vw,480px);overflow:hidden;background:#DED2BE">
         <img src="pivnice-rajac.jpg" alt="Kamena ulica rajačkih pivnica u predvečerje" loading="eager" decoding="sync" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block">
       </div>
       <div data-rv="" style="display:flex;flex-direction:column;gap:24px;max-width:48ch">
-        <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F">Pivnice</p>
-        <h2 style="font-size:clamp(30px,4.8vw,54px);line-height:1.1;color:#3A1119">Varoši<br>bez stanovnika</h2>
-        <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#2E1A17D9">Rajac i Rogljevo su naselja u kojima nikad nije spavao čovek — samo vino. Kamene pivnice zidane su u 18. i 19. veku, ukopane u padinu, sa temperaturom koja se ne menja preko cele godine.</p>
-        <p style="font-size:clamp(17px,1.7vw,19px);line-height:1.7;color:#2E1A17A6">Naš podrum je jedna od njih.</p>
+        <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F">Pivnice</p>
+        <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.1;color:#3A1119">Varoši<br>bez stanovnika</h2>
+        <p style="font-size:17px;line-height:1.7;color:#2E1A17D9">Rajac i Rogljevo su naselja u kojima nikad nije spavao čovek — samo vino. Kamene pivnice zidane su u 18. i 19. veku, ukopane u padinu, sa temperaturom koja se ne menja preko cele godine.</p>
+        <p style="font-size:17px;line-height:1.7;color:#2E1A17A6">Naš podrum je jedna od njih.</p>
       </div>
     </div>
   </section>
 
   <!-- 7. PLANTAŽE -->
-  <section data-screen-label="07 Plantaže" data-tone="dark" style="background:#3A1119;padding:clamp(88px,14vh,170px) clamp(30px,5vw,72px)">
-    <div style="max-width:1680px;margin:0 auto">
+  <section data-screen-label="07 Plantaže" data-tone="dark" style="background:#3A1119;padding:96px clamp(30px,5vw,72px)">
+    <div style="max-width:1200px;margin:0 auto">
       <header data-rv="" style="max-width:40ch;margin-bottom:clamp(46px,7vh,84px)">
-        <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#C9A76A;margin-bottom:22px">Plantaže i vinogorja</p>
-        <h2 style="font-size:clamp(30px,5vw,56px);line-height:1.1;color:#F4EDE1">Šest hektara,<br>dva vinogorja</h2>
+        <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#C9A76A;margin-bottom:22px">Plantaže i vinogorja</p>
+        <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.1;color:#F4EDE1">Šest hektara,<br>dva vinogorja</h2>
       </header>
-      <div style="display:grid;gap:1px;background:#EDE2D01F;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
-        <div data-rv="" style="background:#3A1119;padding:clamp(30px,4vw,52px);display:flex;flex-direction:column;gap:16px;transition:background .5s ease" style-hover="background:#45151f">
-          <span style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Vinogorje I</span>
-          <h3 style="font-size:clamp(23px,2.6vw,30px);color:#F4EDE1;line-height:1.2">Negotinsko</h3>
+      <div style="display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+        <div data-card="" data-rv="" style="background:#3A1119;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:16px;transition:background .5s ease" style-hover="background:#45151f">
+          <span style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Vinogorje I</span>
+          <h3 style="font-size:clamp(20px,2.2vw,24px);color:#F4EDE1;line-height:1.2">Negotinsko</h3>
           <p style="font-size:16px;line-height:1.7;color:#EDE2D0BF">Peskovito-glinovita zemlja, ravnija ekspozicija, veći dozrevanje šećera.</p>
         </div>
-        <div data-rv="" style="background:#3A1119;padding:clamp(30px,4vw,52px);display:flex;flex-direction:column;gap:16px;transition:background .5s ease" style-hover="background:#45151f">
-          <span style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Vinogorje II</span>
-          <h3 style="font-size:clamp(23px,2.6vw,30px);color:#F4EDE1;line-height:1.2">Rajačko-<br>Rogljevačko</h3>
+        <div data-card="" data-rv="" style="background:#3A1119;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:16px;transition:background .5s ease" style-hover="background:#45151f">
+          <span style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Vinogorje II</span>
+          <h3 style="font-size:clamp(20px,2.2vw,24px);color:#F4EDE1;line-height:1.2">Rajačko-<br>Rogljevačko</h3>
           <p style="font-size:16px;line-height:1.7;color:#EDE2D0BF">Strme padine i kamen, niži prinos, koncentrisanije grožđe.</p>
         </div>
-        <div data-rv="" style="background:#3A1119;padding:clamp(30px,4vw,52px);display:flex;flex-direction:column;gap:16px;justify-content:center">
-          <span style="font-family:'Marcellus',serif;font-size:clamp(46px,6vw,72px);line-height:1;color:#C9A76A">6 ha</span>
-          <p style="font:500 10px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D099">Ukupna površina<br>pod lozom</p>
+        <div data-card="" data-rv="" style="background:#3A1119;padding:clamp(32px,3.6vw,48px);display:flex;flex-direction:column;gap:16px;justify-content:center">
+          <span style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(46px,6vw,72px);line-height:1;color:#C9A76A">6 ha</span>
+          <p style="font:500 10px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#EDE2D099">Ukupna površina<br>pod lozom</p>
         </div>
       </div>
     </div>
@@ -661,54 +671,56 @@
     <video data-clip="" data-clip-src="klip-3.mp4" muted="{{ true }}" playsInline="{{ true }}" preload="none" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:{{ clip0 }};transition:opacity .8s ease"></video>
     <div style="position:absolute;inset:0;background:linear-gradient(180deg,#2A0C1259 0%,#2A0C1226 45%,#2A0C12E6 100%)"></div>
     <figcaption style="position:absolute;inset:auto 0 0 0;padding:clamp(30px,6vw,72px);display:flex;flex-direction:column;gap:clamp(14px,2.4vh,22px);max-width:44ch">
-      <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.32em;text-transform:uppercase;color:#C9A76A">Rajac, kamena pivnica</p>
-      <p style="font-family:'Marcellus',Georgia,serif;font-size:clamp(24px,3.6vw,44px);line-height:1.18;color:#F4EDE1">Otkrijte Negotinsku<br>Krajinu kroz vino</p>
+      <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.32em;text-transform:uppercase;color:#C9A76A">Rajac, kamena pivnica</p>
+      <p style="font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,3.6vw,44px);line-height:1.18;color:#F4EDE1">Otkrijte Negotinsku<br>Krajinu kroz vino</p>
     </figcaption>
   </figure>
 
-  <section id="poseta" data-screen-label="08 Poseta" data-tone="light" style="background:#F4EDE1;padding:clamp(96px,16vh,190px) clamp(30px,5vw,72px)">
-    <div style="max-width:1500px;margin:0 auto;display:grid;gap:clamp(40px,6vw,80px);grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+  <section id="poseta" data-screen-label="08 Poseta" data-tone="light" style="background:#F4EDE1;padding:96px clamp(30px,5vw,72px)">
+    <div style="max-width:1500px;margin:0 auto;display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
       <div data-rv="" style="display:flex;flex-direction:column;gap:26px;max-width:40ch">
-        <p style="font:500 11px/1.6 'Alegreya Sans',sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F">Poseta vinariji</p>
-        <h2 style="font-size:clamp(32px,5.2vw,58px);line-height:1.1;color:#3A1119">Dođite<br>u podrum</h2>
-        <p style="font-size:clamp(17px,1.8vw,19px);line-height:1.7;color:#2E1A17D9">Obilazak plantaža i degustacija u kamenoj pivnici. Grupe do dvanaest ljudi, uz najavu.</p>
-        <a href="tel:+381666069100" style="display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:54px;padding:16px 32px;background:#5B1A24;color:#F4EDE1;font:500 12px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;align-self:flex-start;transition:background .4s ease" style-hover="background:#3A1119">Zakaži degustaciju</a>
+        <p style="font:500 11px/1.6 'Inter',system-ui,sans-serif;letter-spacing:.3em;text-transform:uppercase;color:#75551F">Poseta vinariji</p>
+        <h2 style="font-size:clamp(28px,3.6vw,36px);line-height:1.1;color:#3A1119">Dođite<br>u podrum</h2>
+        <p style="font-size:17px;line-height:1.7;color:#2E1A17D9">Obilazak plantaža i degustacija u kamenoj pivnici. Grupe do dvanaest ljudi, uz najavu.</p>
+        <a href="tel:+381666069100" style="display:inline-flex;align-items:center;justify-content:center;gap:14px;min-height:54px;padding:16px 32px;background:#5B1A24;color:#F4EDE1;font:500 12px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;align-self:flex-start;transition:background .4s ease" style-hover="background:#3A1119">Zakaži degustaciju</a>
       </div>
       <dl data-rv="" style="margin:0;display:flex;flex-direction:column;gap:0;border-top:1px solid #2E1A171F">
         <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #2E1A171F">
-          <dt style="flex:0 0 96px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Adresa</dt>
+          <dt style="flex:0 0 96px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Adresa</dt>
           <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">Rečka, JNA 27<br>19313 Negotin, Srbija</dd>
         </div>
         <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #2E1A171F">
-          <dt style="flex:0 0 96px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Telefon</dt>
+          <dt style="flex:0 0 96px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Telefon</dt>
           <dd style="margin:0;font-size:17px;line-height:1.7;display:flex;flex-direction:column;gap:4px"><a href="tel:+381666069100">+381 66 60 69 100</a><a href="tel:+381612016110">+381 61 20 16 110</a></dd>
         </div>
         <div style="display:flex;gap:20px;padding:22px 0;border-bottom:1px solid #2E1A171F">
-          <dt style="flex:0 0 96px;font:500 10px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Sezona</dt>
+          <dt style="flex:0 0 96px;font:500 10px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#75551F">Sezona</dt>
           <dd style="margin:0;font-size:17px;line-height:1.7;color:#2E1A17">April — oktobar, po dogovoru</dd>
         </div>
       </dl>
     </div>
   </section>
 
+  </main>
+
   <!-- 9. FOOTER -->
-  <footer id="kontakt" data-screen-label="09 Footer" data-tone="dark" style="background:#2A0C12;padding:clamp(76px,12vh,140px) clamp(30px,5vw,72px) clamp(40px,6vh,64px)">
-    <div style="max-width:1680px;margin:0 auto">
-      <div style="display:grid;gap:clamp(38px,5vw,72px);grid-template-columns:repeat(auto-fit,minmax(220px,1fr));padding-bottom:clamp(46px,7vh,80px);border-bottom:1px solid #EDE2D01F">
+  <footer id="kontakt" data-screen-label="09 Footer" data-tone="dark" style="background:#2A0C12;padding:96px clamp(30px,5vw,72px)">
+    <div style="max-width:1200px;margin:0 auto">
+      <div style="display:grid;gap:32px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));padding-bottom:clamp(46px,7vh,80px);border-bottom:1px solid #EDE2D01F">
         <div style="display:flex;flex-direction:column;gap:20px">
           <img src="logo-vinarija-mikic.png" alt="Logo Vinarije Mikić" width="270" height="270" style="width:74px;height:auto;display:block">
           <p style="font-size:16px;line-height:1.7;color:#EDE2D08C;max-width:26ch">Vino iz Negotinske Krajine, od 1997.</p>
         </div>
         <div style="display:flex;flex-direction:column;gap:14px">
-          <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Srbija</p>
+          <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Srbija</p>
           <address style="font-style:normal;font-size:16px;line-height:1.8;color:#EDE2D0D9">Rečka, JNA 27<br>19313 Negotin<br><a href="tel:+381666069100" style="color:#C9A76A">+381 66 60 69 100</a><br><a href="tel:+381612016110" style="color:#C9A76A">+381 61 20 16 110</a></address>
         </div>
         <div style="display:flex;flex-direction:column;gap:14px">
-          <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Austrija</p>
+          <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Austrija</p>
           <address style="font-style:normal;font-size:16px;line-height:1.8;color:#EDE2D0D9">Petzoldstraße 14<br>4600 Wels<br><a href="tel:+436603470617" style="color:#C9A76A">+43 660 34 70 617</a><br><a href="tel:+436769572330" style="color:#C9A76A">+43 676 95 72 330</a></address>
         </div>
         <div style="display:flex;flex-direction:column;gap:14px">
-          <p style="font:500 10px/1 'Alegreya Sans',sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Mreže</p>
+          <p style="font:500 10px/1 'Inter',system-ui,sans-serif;letter-spacing:.24em;text-transform:uppercase;color:#C9A76A">Mreže</p>
           <div style="display:flex;flex-wrap:wrap;gap:12px">
             <a href="https://www.facebook.com/vinarija.mikic" target="_blank" rel="noopener noreferrer" aria-label="Facebook stranica Vinarije Mikić" title="Facebook stranica Vinarije Mikić" style="width:46px;height:46px;border:1px solid #C9A76A59;display:flex;align-items:center;justify-content:center;color:#C9A76A;transition:background .4s ease,border-color .4s ease,color .4s ease" style-hover="background:#C9A76A;border-color:#C9A76A;color:#2A0C12">
               <svg viewBox="0 0 24 24" width="19" height="19" fill="currentColor" aria-hidden="true" focusable="false"><path d="M13.5 21v-7.2h2.5l.4-2.9h-2.9V9.1c0-.8.2-1.4 1.4-1.4h1.6V5.1C16.2 5 15.4 5 14.5 5c-2.2 0-3.7 1.3-3.7 3.8v2.1H8.3v2.9h2.5V21h2.7z"/></svg>
@@ -729,8 +741,8 @@
         </div>
       </div>
       <div style="padding-top:26px;display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between">
-        <p style="font:400 12px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.1em;color:#EDE2D0B3">© 2026 Vinarija Mikić</p>
-        <p style="font:400 12px/1.7 'Alegreya Sans',sans-serif;letter-spacing:.1em;color:#EDE2D0B3">Alkohol se ne prodaje licima mlađim od 18 godina.</p>
+        <p style="font:400 12px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.1em;color:#EDE2D0B3">© 2026 Vinarija Mikić</p>
+        <p style="font:400 12px/1.7 'Inter',system-ui,sans-serif;letter-spacing:.1em;color:#EDE2D0B3">Alkohol se ne prodaje licima mlađim od 18 godina.</p>
       </div>
     </div>
   </footer>
@@ -739,7 +751,7 @@
 </x-dc>
 <script type="text/x-dc" data-dc-script data-props="{&quot;showGauge&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Potpisni detalj&quot;}}">
 class Component extends DCLogic {
-  state = { p: 0, tone: 'dark', phrase: 0, phraseIn: true, detail: null, stuck: false, menu: false, narrow: false, hdrH: 0, about: false, wines: false, clip: 0 };
+  state = { p: 0, tone: 'dark', phrase: 0, phraseIn: true, detail: null, stuck: false, menu: false, narrow: false, typed: '', caret: false, hdrH: 0, about: false, wines: false, clip: 0 };
   openWines() {
     if (this.state.wines && !this.state.detail) return;
     if (!this.state.wines) this._returnY = window.scrollY;
@@ -1010,9 +1022,42 @@ class Component extends DCLogic {
     }
     return 'dark';
   }
+  startTyping() {
+    const full = 'Vino iz kamena';
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) { this.setState({ typed: full, caret: false }); return; }
+    let i = 0;
+    this.setState({ typed: '', caret: true });
+    this._typeTimer = setInterval(() => {
+      i++;
+      this.setState({ typed: full.slice(0, i) });
+      if (i >= full.length) {
+        clearInterval(this._typeTimer); this._typeTimer = null;
+        this._caretTimer = setTimeout(() => this.setState({ caret: false }), 2800);
+      }
+    }, 50);
+  }
+  normalizeProseRhythm() {
+    const ps = document.querySelectorAll('p');
+    const stacks = new Set();
+    ps.forEach(p => {
+      const parent = p.parentElement;
+      if (!parent) return;
+      const d = getComputedStyle(parent).display;
+      if (d === 'flex' || d === 'grid' || d === 'inline-flex' || d === 'inline-grid') { stacks.add(parent); return; }
+      if (p.previousElementSibling && p.previousElementSibling.tagName === 'P') p.setAttribute('data-flow', '');
+      if (p.nextElementSibling && p.nextElementSibling.tagName === 'P') p.setAttribute('data-flow', '');
+    });
+    stacks.forEach(parent => {
+      const kids = Array.prototype.slice.call(parent.children);
+      const paras = kids.filter(k => k.tagName === 'P');
+      if (paras.length >= 2 && paras.length === kids.length) parent.style.gap = '20px';
+    });
+  }
   componentDidMount() {
-    const reveal = (n) => { n.setAttribute('data-rv', '1'); n.style.opacity = '1'; n.style.transform = 'none'; };
-    const inView = (n) => { const r = n.getBoundingClientRect(); return r.top < window.innerHeight * 0.94 && r.bottom > 0; };
+    this.startTyping();
+    this.normalizeProseRhythm();
+    const reveal = (n) => { n.setAttribute('data-rv', '1'); };
+    const inView = (n) => { const r = n.getBoundingClientRect(); return r.top < window.innerHeight * 0.7 && r.bottom > 0; };
     const items = Array.prototype.slice.call(document.querySelectorAll('[data-rv]'));
     const canAnimate = typeof IntersectionObserver === 'function'
       && !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -1021,8 +1066,12 @@ class Component extends DCLogic {
     else {
       document.documentElement.setAttribute('data-anim', 'on');
       const io = new IntersectionObserver((es) => {
-        es.forEach(e => { if (e.isIntersecting) { reveal(e.target); io.unobserve(e.target); } });
-      }, { rootMargin: '0px 0px -6% 0px', threshold: 0.05 });
+        es.forEach(e => {
+          if (!e.isIntersecting) return;
+          const tall = e.boundingClientRect.height > window.innerHeight * 0.6;
+          if (e.intersectionRatio >= 0.3 || (tall && e.boundingClientRect.top < window.innerHeight * 0.7)) { reveal(e.target); io.unobserve(e.target); }
+        });
+      }, { threshold: [0, 0.3, 0.6] });
       items.forEach((n, i) => { n.style.transitionDelay = (Math.min(i % 4, 3) * 80) + 'ms'; io.observe(n); });
       this._io = io;
       // fallbacks: an observer that never fires must not leave the page blank
@@ -1031,13 +1080,13 @@ class Component extends DCLogic {
       this._sweep = sweep;
       window.addEventListener('scroll', sweep, { passive: true });
       window.addEventListener('resize', sweep);
-      this._failsafe = setTimeout(() => items.forEach(reveal), 2500);
+      this._failsafe = setTimeout(sweep, 2500);
     }
     this._onScroll = () => {
       const h = document.documentElement.scrollHeight - window.innerHeight;
       const p = h > 0 ? Math.min(1, Math.max(0, window.scrollY / h)) : 0;
       const tone = this.toneUnderGauge();
-      const stuck = window.scrollY > 70;
+      const stuck = window.scrollY > 50;
       if (Math.abs(p - this.state.p) > 0.004 || tone !== this.state.tone || stuck !== this.state.stuck) this.setState({ p, tone, stuck });
     };
     window.addEventListener('scroll', this._onScroll, { passive: true });
@@ -1081,6 +1130,8 @@ class Component extends DCLogic {
     this._onHash();
   }
   componentWillUnmount() {
+    if (this._typeTimer) clearInterval(this._typeTimer);
+    if (this._caretTimer) clearTimeout(this._caretTimer);
     window.removeEventListener('scroll', this._onScroll);
     if (this._sweep) { window.removeEventListener('scroll', this._sweep); window.removeEventListener('resize', this._sweep); }
     if (this._failsafe) clearTimeout(this._failsafe);
@@ -1112,10 +1163,13 @@ class Component extends DCLogic {
       clip1: this.state.clip === 1 ? 1 : 0,
       clip2: this.state.clip === 2 ? 1 : 0,
       hdrH: (this.state.hdrH || 104) + 'px',
-      hdrBg: this.state.stuck ? '#2A0C12F2' : 'transparent',
+      hdrBg: this.state.stuck ? '#2A0C12D9' : 'transparent',
       hdrLine: this.state.stuck ? '#C9A76A2E' : 'transparent',
-      hdrPad: this.state.stuck ? 'clamp(10px,1.4vw,16px)' : 'clamp(18px,2.6vw,32px)',
-      hdrLogo: this.state.stuck ? 'clamp(42px,4.4vw,50px)' : 'clamp(50px,6vw,66px)',
+      hdrHeight: this.state.stuck ? '64px' : '80px',
+      hdrShadow: this.state.stuck ? '0 10px 30px -14px #14060A99' : '0 0 0 0 transparent',
+      hdrLogo: this.state.stuck ? 'clamp(32px,3.8vw,40px)' : 'clamp(40px,5vw,52px)',
+      typedTitle: this.state.typed,
+      caretOn: this.state.caret,
       navDisplay: this.state.narrow ? 'none' : 'flex',
       burgerDisplay: this.state.narrow ? 'flex' : 'none',
       menuDisplay: this.state.menu ? 'flex' : 'none',
